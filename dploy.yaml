@@ -1,0 +1,11 @@
+master:
+    scheme: ftp
+    host: antoy.jeffnys.fr
+    port: 21
+    user: antoy
+    pass: srAOoxqSFvJe
+    check: true
+    exclude: ["dploy.yaml",".gitignore"]
+    path:
+        remote: public_html/
+
