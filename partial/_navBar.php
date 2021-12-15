@@ -15,6 +15,7 @@
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="./Exo.php">Exo</a>
+          
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="./Notes.php">Notes</a>
