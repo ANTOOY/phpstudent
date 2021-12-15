@@ -9,7 +9,6 @@
 </head>
 <body>
 <?php include("./partial/_navBar.php"); ?>
-<h1>Exercices</h1>
 <h1>Exercice 2</h1>
 <h3>Décoder des messages</h3>
         <p>les messages à décoder</p>
@@ -31,8 +30,12 @@
             <li>Pour finir, inverse la chaîne de caractères.</li>
         </ol>
         <?php
-       
-        
+        /**
+         * pour la division, un code à tester:
+         * $number = 50;
+         * $result = 50 / 2;
+         * echo $result;
+         */
         // TO DO
         $chiffreCle = strlen ($message1) / 2;
         $sousChaine = substr ($message1, 5, $clef);
@@ -56,7 +59,6 @@
             message2: <?php echo $decodedMessage2 ?><br>
             message3: <?php echo $decodedMessage3 ?><br>
         </p>
-
 
 
 
