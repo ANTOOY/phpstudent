@@ -10,7 +10,26 @@
 <body>
 <?php include("./partial/_navBar.php"); ?>  
 <h1>Test</h1>
-    
+<pre>
+
+
+<?php
+$texte = "php test";
+ $truc = 3;
+
+$stab = []; 
+ $stab [] = $texte;
+ $stab [] = $truc;
+  var_dump($stab);
+
+
+?>
+
+
+</pre>
+
+
+
 
 <script src="./bootstrap.bundle.min.js"></script>
 </body>

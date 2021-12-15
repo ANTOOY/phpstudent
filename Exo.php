@@ -10,7 +10,12 @@
 <body>
 <?php include("./partial/_navBar.php"); ?>
 <h1>Exercices</h1>
-<h3>Exercice php</h3>
+<a href="./exo2.php">EXERCICE 2</a>
+
+
+
+
+
 
 <script src="./bootstrap.bundle.min.js"></script>
 </body>
