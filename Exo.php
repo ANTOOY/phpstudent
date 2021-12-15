@@ -36,18 +36,18 @@
         // TO DO
         $chiffreCle = strlen ($message1) / 2;
         $sousChaine = substr ($message1, 5, $clef);
-        $espace = str_replace ("@#?", "", $sousChaine);
+        $espace = str_replace ("@#?", " ", $sousChaine);
         $decodedMessage1 = strrev ($espace);
         // TO DO
         $chiffreCle = strlen ($message2) / 2;
         $sousChaine = substr ($message2, 5, $clef);
-        $espace = str_replace ("@#?", "", $sousChaine);
+        $espace = str_replace ("@#?", " ", $sousChaine);
         $decodedMessage2 = strrev ($espace);
         
         // TO DO
         $chiffreCle = strlen ($message3) / 2;
         $sousChaine = substr ($message3, 5, $clef);
-        $espace = str_replace ("@#?", "", $sousChaine);
+        $espace = str_replace ("@#?", " ", $sousChaine);
         $decodedMessage3= strrev ($espace);
      
         ?>
