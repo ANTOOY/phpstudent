@@ -9,7 +9,7 @@
 </head>
 <body>
 <?php include("./partial/_navBar.php"); ?>
-<h1>EXERCICE 3</h1>
+
 
 <h1>Exercice 3</h1>
         <?php
@@ -66,8 +66,8 @@
                     ?></li>
                 <li><?php  echo $tab2[4]; 
                     ?></li>
-                <li><?php echo $tab2[5]; 
-                    ?></li>
+                <li><?php echo $tab2[5];
+                 ?></li>
             </ul> 
         </p>
 
