@@ -10,7 +10,9 @@
 <body>
 <?php include("./partial/_navBar.php"); ?>
 <h1>Exercices</h1>
-<h3>Exercice php</h3>
+<ol>
+    <li><a href="./exo3.php">exercice 3</a></li>
+</ol>
 
 <script src="./bootstrap.bundle.min.js"></script>
 </body>
