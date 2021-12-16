@@ -11,6 +11,7 @@
 <?php include("./partial/_navBar.php"); ?>
 <h1>Exercices</h1>
 <ol>
+    <li><a href="./exo2.php">exercice 2</a></li>
     <li><a href="./exo3.php">exercice 3</a></li>
 </ol>
 
